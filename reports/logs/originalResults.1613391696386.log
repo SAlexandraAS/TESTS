@@ -1,0 +1,2695 @@
+{
+	"passed": 37,
+	"failed": 1,
+	"errors": 0,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 38,
+	"errmessages": [],
+	"modules": {
+		"02.UITest.SignupPage": {
+			"reportPrefix": "CHROME_87.0.4280.66_Linux_",
+			"assertionsCount": 38,
+			"lastError": {
+				"name": "NightwatchAssertError",
+				"message": "Error while running \"ok\" command: Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+				"showDiff": false,
+				"abortOnFailure": true,
+				"stack": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+			},
+			"skipped": [],
+			"time": "24.18",
+			"completed": {
+				"Signup is ok": {
+					"time": "11.42",
+					"assertions": [
+						{
+							"message": "Element <.signup-form> was visible after 19 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Load the inbox of the mailinator",
+							"stackTrace": "",
+							"fullMsg": "Load the inbox of the mailinator",
+							"failure": false
+						},
+						{
+							"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <#msg_body> was visible after 19 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 7,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 7,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						}
+					},
+					"timeMs": 11421
+				},
+				"Signup with the empty mail or correct mail": {
+					"time": "0.6560",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The input was highlighted",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The input was highlighted",
+							"failure": false
+						},
+						{
+							"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 5,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 5,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						}
+					},
+					"timeMs": 656
+				},
+				"Signup with the empty username": {
+					"time": "3.749",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The input was highlighted",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The input was highlighted",
+							"failure": false
+						},
+						{
+							"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 6,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 6,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						}
+					},
+					"timeMs": 3749
+				},
+				"Signup with the existed username": {
+					"time": "2.762",
+					"assertions": [
+						{
+							"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 3,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 3,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						},
+						"Signup with the existed username": {
+							"time": "2.762",
+							"assertions": [
+								{
+									"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2762
+						}
+					},
+					"timeMs": 2762
+				},
+				"Click and hold to show the password": {
+					"time": "2.454",
+					"assertions": [
+						{
+							"message": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: The password has shown",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The password has shown",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: The password has hide",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The password has hide",
+							"failure": false
+						}
+					],
+					"passed": 3,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 3,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						},
+						"Signup with the existed username": {
+							"time": "2.762",
+							"assertions": [
+								{
+									"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2762
+						},
+						"Click and hold to show the password": {
+							"time": "2.454",
+							"assertions": [
+								{
+									"message": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has shown",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has hide",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has hide",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2454
+						}
+					},
+					"timeMs": 2454
+				},
+				"Signup with the empty password": {
+					"time": "0.7700",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The input was highlighted",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The input was highlighted",
+							"failure": false
+						},
+						{
+							"message": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 5,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 5,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						},
+						"Signup with the existed username": {
+							"time": "2.762",
+							"assertions": [
+								{
+									"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2762
+						},
+						"Click and hold to show the password": {
+							"time": "2.454",
+							"assertions": [
+								{
+									"message": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has shown",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has hide",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has hide",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2454
+						},
+						"Signup with the empty password": {
+							"time": "0.7700",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 770
+						}
+					},
+					"timeMs": 770
+				},
+				"Signup with the empty confirm password": {
+					"time": "0.6180",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The input was highlighted",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The input was highlighted",
+							"failure": false
+						},
+						{
+							"message": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 5,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 5,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						},
+						"Signup with the existed username": {
+							"time": "2.762",
+							"assertions": [
+								{
+									"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2762
+						},
+						"Click and hold to show the password": {
+							"time": "2.454",
+							"assertions": [
+								{
+									"message": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has shown",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has hide",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has hide",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2454
+						},
+						"Signup with the empty password": {
+							"time": "0.7700",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 770
+						},
+						"Signup with the empty confirm password": {
+							"time": "0.6180",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 618
+						}
+					},
+					"timeMs": 618
+				},
+				"Signup with the empty gender": {
+					"time": "0.6400",
+					"assertions": [
+						{
+							"message": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+							"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"fullMsg": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+							"failure": "Expected \"true\" but got: \"false\""
+						}
+					],
+					"passed": 0,
+					"errors": 0,
+					"failed": 1,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						},
+						"Signup with the existed username": {
+							"time": "2.762",
+							"assertions": [
+								{
+									"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2762
+						},
+						"Click and hold to show the password": {
+							"time": "2.454",
+							"assertions": [
+								{
+									"message": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has shown",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has hide",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has hide",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2454
+						},
+						"Signup with the empty password": {
+							"time": "0.7700",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 770
+						},
+						"Signup with the empty confirm password": {
+							"time": "0.6180",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 618
+						},
+						"Signup with the empty gender": {
+							"time": "0.6400",
+							"assertions": [
+								{
+									"message": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 1,
+							"passed": 0,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 640
+						}
+					},
+					"lastError": {
+						"name": "NightwatchAssertError",
+						"message": "Error while running \"ok\" command: Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+						"showDiff": false,
+						"abortOnFailure": true,
+						"stack": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+					},
+					"timeMs": 640
+				},
+				"Signup with the empty dob": {
+					"time": "0.5300",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The input was highlighted",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The input was highlighted",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 2,
+					"steps": [],
+					"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						},
+						"Signup with the existed username": {
+							"time": "2.762",
+							"assertions": [
+								{
+									"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2762
+						},
+						"Click and hold to show the password": {
+							"time": "2.454",
+							"assertions": [
+								{
+									"message": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has shown",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has hide",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has hide",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2454
+						},
+						"Signup with the empty password": {
+							"time": "0.7700",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 770
+						},
+						"Signup with the empty confirm password": {
+							"time": "0.6180",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 618
+						},
+						"Signup with the empty gender": {
+							"time": "0.6400",
+							"assertions": [
+								{
+									"message": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 1,
+							"passed": 0,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 640
+						},
+						"Signup with the empty dob": {
+							"time": "0.5300",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 530
+						}
+					},
+					"timeMs": 530
+				},
+				"Signup with disagree with the term": {
+					"time": "0.5780",
+					"assertions": [
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 1,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Signup is ok": {
+							"time": "11.42",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 562 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 7,
+							"passed": 7,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 11421
+						},
+						"Signup with the empty mail or correct mail": {
+							"time": "0.6560",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 656
+						},
+						"Signup with the empty username": {
+							"time": "3.749",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(17ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 3749
+						},
+						"Signup with the existed username": {
+							"time": "2.762",
+							"assertions": [
+								{
+									"message": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <span.signUpFailed> was visible after 50 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(58ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2762
+						},
+						"Click and hold to show the password": {
+							"time": "2.454",
+							"assertions": [
+								{
+									"message": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#lableForpassword + .pass-eye> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has shown",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The password has hide",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The password has hide",
+									"failure": false
+								}
+							],
+							"tests": 3,
+							"passed": 3,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2454
+						},
+						"Signup with the empty password": {
+							"time": "0.7700",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(19ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 770
+						},
+						"Signup with the empty confirm password": {
+							"time": "0.6180",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The error message has been shown \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 618
+						},
+						"Signup with the empty gender": {
+							"time": "0.6400",
+							"assertions": [
+								{
+									"message": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 1,
+							"passed": 0,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 640
+						},
+						"Signup with the empty dob": {
+							"time": "0.5300",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 530
+						},
+						"Signup with disagree with the term": {
+							"time": "0.5780",
+							"assertions": [
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 578
+						}
+					},
+					"timeMs": 578
+				}
+			},
+			"errmessages": [],
+			"testsCount": 10,
+			"skippedCount": 0,
+			"failedCount": 1,
+			"errorsCount": 0,
+			"passedCount": 37,
+			"group": "",
+			"modulePath": "/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js",
+			"tests": 10,
+			"failures": 1,
+			"errors": 0
+		}
+	},
+	"lastError": {
+		"name": "NightwatchAssertError",
+		"message": "Error while running \"ok\" command: Failed [ok]: (The input was highlighted) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+		"showDiff": false,
+		"abortOnFailure": true,
+		"stack": "    at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+	}
+}

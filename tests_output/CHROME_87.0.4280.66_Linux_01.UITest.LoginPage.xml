@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="01.UITest.LoginPage"
+    errors="0" failures="0" hostname="" id="" package="01.UITest.LoginPage" skipped="0"
+    tests="7" time="31.62" timestamp="">
+  
+    <testcase name="Login with the incorrect username" classname="01.UITest.LoginPage" time="1.061" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login with the incorrect password" classname="01.UITest.LoginPage" time="0.8330" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Login with the corrent account" classname="01.UITest.LoginPage" time="1.272" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Login with empty Email or Password" classname="01.UITest.LoginPage" time="0.4800" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Can go to forgot password page" classname="01.UITest.LoginPage" time="0.9750" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Can go to forgot password page and submit with empty input" classname="01.UITest.LoginPage" time="1.637" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Send email forgot password success" classname="01.UITest.LoginPage" time="25.36" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

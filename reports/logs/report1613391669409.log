@@ -1,0 +1,15 @@
+
+Nightwatch Results
+	02.UITest.SignupPage : [Failed]
+	STEP [1] : Signup is ok : [V] No failure assertion
+	STEP [2] : Signup with the empty mail or correct mail : [V] No failure assertion
+	STEP [3] : Signup with the empty username : [V] No failure assertion
+	STEP [4] : Signup with the existed username : [V] No failure assertion
+	STEP [5] : Click and hold to show the password : [V] No failure assertion
+	STEP [6] : Signup with the empty password : [V] No failure assertion
+	STEP [7] : Signup with the empty confirm password : [V] No failure assertion
+	STEP [8] : Signup with the empty gender 
+		[FAILED] Failed [ok]: (The input was highlighted) - expected [0;32m&quot;true&quot;[0m but got: [0;31m&quot;false&quot;[0m [0;90m(0ms)[0m
+		at Object.Signup with the empty gender (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/02.UITest.SignupPage.js:146:20)
+	STEP [9] : Signup with the empty dob : [V] No failure assertion
+	STEP [10] : Signup with disagree with the term : [V] No failure assertion

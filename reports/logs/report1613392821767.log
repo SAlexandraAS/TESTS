@@ -1,0 +1,19 @@
+
+Nightwatch Results
+	10.UITest.DiscoverypageInAuth : [Failed]
+	STEP [1] : Check if top slider shows video name, description, artist image : [V] No failure assertion
+	STEP [2] : Check table/list view mode : [V] No failure assertion
+	STEP [3] : Check if each video has title, description, share/like icon in LIST mode 
+		[FAILED] Failed [ok]: (Every video has title) - expected [0;32m&quot;true&quot;[0m but got: [0;31m&quot;false&quot;[0m [0;90m(0ms)[0m
+		at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)
+	STEP [4] : Check if each video has title, description, share/like icon in GRID mode : [V] No failure assertion
+	STEP [5] : Check if show more work : [V] No failure assertion
+	STEP [6] : Check like/unlike works in auth mode : [V] No failure assertion
+	10.UITest.Discoverypage : [Failed]
+	STEP [1] : Check if top slider shows video name, description, artist image : [V] No failure assertion
+	STEP [2] : Check table/list view mode : [V] No failure assertion
+	STEP [3] : Check if each video has title, description, share/like icon in LIST mode 
+		[FAILED] Failed [ok]: (Every video has title) - expected [0;32m&quot;true&quot;[0m but got: [0;31m&quot;false&quot;[0m [0;90m(0ms)[0m
+		at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)
+	STEP [4] : Check if each video has title, description, share/like icon in GRID mode : [V] No failure assertion
+	STEP [5] : Check if show more work : [V] No failure assertion

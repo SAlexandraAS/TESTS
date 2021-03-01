@@ -1,0 +1,10 @@
+
+Nightwatch Results
+	01.UITest.LoginPage : [Success]
+	STEP [1] : Login with the incorrect username : [V] No failure assertion
+	STEP [2] : Login with the incorrect password : [V] No failure assertion
+	STEP [3] : Login with the corrent account : [V] No failure assertion
+	STEP [4] : Login with empty Email or Password : [V] No failure assertion
+	STEP [5] : Can go to forgot password page : [V] No failure assertion
+	STEP [6] : Can go to forgot password page and submit with empty input : [V] No failure assertion
+	STEP [7] : Send email forgot password success : [V] No failure assertion

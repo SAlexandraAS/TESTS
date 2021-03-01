@@ -1,0 +1,1220 @@
+{
+	"passed": 34,
+	"failed": 0,
+	"errors": 0,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 34,
+	"errmessages": [],
+	"modules": {
+		"01.UITest.LoginPage": {
+			"reportPrefix": "CHROME_87.0.4280.66_Linux_",
+			"assertionsCount": 34,
+			"lastError": null,
+			"skipped": [],
+			"time": "31.62",
+			"completed": {
+				"Login with the incorrect username": {
+					"time": "1.061",
+					"assertions": [
+						{
+							"message": "Element <.signin-form> was visible after 13 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 2,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Login with the incorrect username": {
+							"time": "1.061",
+							"assertions": [
+								{
+									"message": "Element <.signin-form> was visible after 13 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1061
+						}
+					},
+					"timeMs": 1061
+				},
+				"Login with the incorrect password": {
+					"time": "0.8330",
+					"assertions": [
+						{
+							"message": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 1,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Login with the incorrect username": {
+							"time": "1.061",
+							"assertions": [
+								{
+									"message": "Element <.signin-form> was visible after 13 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1061
+						},
+						"Login with the incorrect password": {
+							"time": "0.8330",
+							"assertions": [
+								{
+									"message": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 833
+						}
+					},
+					"timeMs": 833
+				},
+				"Login with the corrent account": {
+					"time": "1.272",
+					"assertions": [
+						{
+							"message": "Passed [ok]: Login with the correct username and password should be OK",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Login with the correct username and password should be OK",
+							"failure": false
+						}
+					],
+					"passed": 1,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Login with the incorrect username": {
+							"time": "1.061",
+							"assertions": [
+								{
+									"message": "Element <.signin-form> was visible after 13 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1061
+						},
+						"Login with the incorrect password": {
+							"time": "0.8330",
+							"assertions": [
+								{
+									"message": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 833
+						},
+						"Login with the corrent account": {
+							"time": "1.272",
+							"assertions": [
+								{
+									"message": "Passed [ok]: Login with the correct username and password should be OK",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Login with the correct username and password should be OK",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1272
+						}
+					},
+					"timeMs": 1272
+				},
+				"Login with empty Email or Password": {
+					"time": "0.4800",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The input was highlighted when email is empty",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The input was highlighted when email is empty",
+							"failure": false
+						},
+						{
+							"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: The input was highlighted when password is empty",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The input was highlighted when password is empty",
+							"failure": false
+						},
+						{
+							"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 6,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 6,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Login with the incorrect username": {
+							"time": "1.061",
+							"assertions": [
+								{
+									"message": "Element <.signin-form> was visible after 13 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1061
+						},
+						"Login with the incorrect password": {
+							"time": "0.8330",
+							"assertions": [
+								{
+									"message": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 833
+						},
+						"Login with the corrent account": {
+							"time": "1.272",
+							"assertions": [
+								{
+									"message": "Passed [ok]: Login with the correct username and password should be OK",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Login with the correct username and password should be OK",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1272
+						},
+						"Login with empty Email or Password": {
+							"time": "0.4800",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted when email is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when email is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The input was highlighted when password is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when password is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 480
+						}
+					},
+					"timeMs": 480
+				},
+				"Can go to forgot password page": {
+					"time": "0.9750",
+					"assertions": [
+						{
+							"message": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 4,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 4,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Login with the incorrect username": {
+							"time": "1.061",
+							"assertions": [
+								{
+									"message": "Element <.signin-form> was visible after 13 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1061
+						},
+						"Login with the incorrect password": {
+							"time": "0.8330",
+							"assertions": [
+								{
+									"message": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 833
+						},
+						"Login with the corrent account": {
+							"time": "1.272",
+							"assertions": [
+								{
+									"message": "Passed [ok]: Login with the correct username and password should be OK",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Login with the correct username and password should be OK",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1272
+						},
+						"Login with empty Email or Password": {
+							"time": "0.4800",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted when email is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when email is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The input was highlighted when password is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when password is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 480
+						},
+						"Can go to forgot password page": {
+							"time": "0.9750",
+							"assertions": [
+								{
+									"message": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 975
+						}
+					},
+					"timeMs": 975
+				},
+				"Can go to forgot password page and submit with empty input": {
+					"time": "1.637",
+					"assertions": [
+						{
+							"message": "Forgot password tab displayed \u001b[0;90m(568ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Forgot password tab displayed \u001b[0;90m(568ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Sign in tab hided \u001b[0;90m(47ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Sign in tab hided \u001b[0;90m(47ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: true ok The input was required",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: true ok The input was required",
+							"failure": false
+						},
+						{
+							"message": "The error message has shown",
+							"stackTrace": "",
+							"fullMsg": "The error message has shown",
+							"failure": false
+						},
+						{
+							"message": "The message has shown correctly \u001b[0;90m(15ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The message has shown correctly \u001b[0;90m(15ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 5,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 5,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Login with the incorrect username": {
+							"time": "1.061",
+							"assertions": [
+								{
+									"message": "Element <.signin-form> was visible after 13 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1061
+						},
+						"Login with the incorrect password": {
+							"time": "0.8330",
+							"assertions": [
+								{
+									"message": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 833
+						},
+						"Login with the corrent account": {
+							"time": "1.272",
+							"assertions": [
+								{
+									"message": "Passed [ok]: Login with the correct username and password should be OK",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Login with the correct username and password should be OK",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1272
+						},
+						"Login with empty Email or Password": {
+							"time": "0.4800",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted when email is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when email is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The input was highlighted when password is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when password is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 480
+						},
+						"Can go to forgot password page": {
+							"time": "0.9750",
+							"assertions": [
+								{
+									"message": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 975
+						},
+						"Can go to forgot password page and submit with empty input": {
+							"time": "1.637",
+							"assertions": [
+								{
+									"message": "Forgot password tab displayed \u001b[0;90m(568ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password tab displayed \u001b[0;90m(568ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in tab hided \u001b[0;90m(47ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in tab hided \u001b[0;90m(47ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: true ok The input was required",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: true ok The input was required",
+									"failure": false
+								},
+								{
+									"message": "The error message has shown",
+									"stackTrace": "",
+									"fullMsg": "The error message has shown",
+									"failure": false
+								},
+								{
+									"message": "The message has shown correctly \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The message has shown correctly \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1637
+						}
+					},
+					"timeMs": 1637
+				},
+				"Send email forgot password success": {
+					"time": "25.36",
+					"assertions": [
+						{
+							"message": "Element <.signup-form> was visible after 19 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Load the inbox of the mailinator",
+							"stackTrace": "",
+							"fullMsg": "Load the inbox of the mailinator",
+							"failure": false
+						},
+						{
+							"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 568 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 568 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <#msg_body> was visible after 25 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#msg_body> was visible after 25 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Check the link in email redirect to login page \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Element <.swal2-popup.swal2-show> was visible after 15 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 15 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Forgot password tab displayed \u001b[0;90m(21ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Forgot password tab displayed \u001b[0;90m(21ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Sign in tab hided \u001b[0;90m(16ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "Sign in tab hided \u001b[0;90m(16ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The email has been existed in system \u001b[0;90m(4ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The email has been existed in system \u001b[0;90m(4ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "The email has been sent \u001b[0;90m(14ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The email has been sent \u001b[0;90m(14ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Load the inbox of the mailinator",
+							"stackTrace": "",
+							"fullMsg": "Load the inbox of the mailinator",
+							"failure": false
+						},
+						{
+							"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 560 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 560 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Element <#msg_body> was visible after 33 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <#msg_body> was visible after 33 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "The link in email is correctly \u001b[0;90m(607ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The link in email is correctly \u001b[0;90m(607ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 15,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 15,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Login with the incorrect username": {
+							"time": "1.061",
+							"assertions": [
+								{
+									"message": "Element <.signin-form> was visible after 13 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signin-form> was visible after 13 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the incorrect username and the corrent password should be Fail \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1061
+						},
+						"Login with the incorrect password": {
+							"time": "0.8330",
+							"assertions": [
+								{
+									"message": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Login with the correct username and the incorrect password should be Fail \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 833
+						},
+						"Login with the corrent account": {
+							"time": "1.272",
+							"assertions": [
+								{
+									"message": "Passed [ok]: Login with the correct username and password should be OK",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Login with the correct username and password should be OK",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1272
+						},
+						"Login with empty Email or Password": {
+							"time": "0.4800",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The input was highlighted when email is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when email is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(3ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The input was highlighted when password is empty",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The input was highlighted when password is empty",
+									"failure": false
+								},
+								{
+									"message": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The input was highlighted with the message \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The submit form has been not submitted \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 480
+						},
+						"Can go to forgot password page": {
+							"time": "0.9750",
+							"assertions": [
+								{
+									"message": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password tab displayed \u001b[0;90m(554ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in tab hided \u001b[0;90m(38ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password hided again \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in has been backed \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 975
+						},
+						"Can go to forgot password page and submit with empty input": {
+							"time": "1.637",
+							"assertions": [
+								{
+									"message": "Forgot password tab displayed \u001b[0;90m(568ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password tab displayed \u001b[0;90m(568ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in tab hided \u001b[0;90m(47ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in tab hided \u001b[0;90m(47ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: true ok The input was required",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: true ok The input was required",
+									"failure": false
+								},
+								{
+									"message": "The error message has shown",
+									"stackTrace": "",
+									"fullMsg": "The error message has shown",
+									"failure": false
+								},
+								{
+									"message": "The message has shown correctly \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The message has shown correctly \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 5,
+							"passed": 5,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1637
+						},
+						"Send email forgot password success": {
+							"time": "25.36",
+							"assertions": [
+								{
+									"message": "Element <.signup-form> was visible after 19 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.signup-form> was visible after 19 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 568 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 568 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 25 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 25 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Check the link in email redirect to login page \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Check the link in email redirect to login page \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Element <.swal2-popup.swal2-show> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.swal2-popup.swal2-show> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The confirmation is success \u001b[0;90m(15ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Forgot password tab displayed \u001b[0;90m(21ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Forgot password tab displayed \u001b[0;90m(21ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Sign in tab hided \u001b[0;90m(16ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "Sign in tab hided \u001b[0;90m(16ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The email has been existed in system \u001b[0;90m(4ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The email has been existed in system \u001b[0;90m(4ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "The email has been sent \u001b[0;90m(14ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The email has been sent \u001b[0;90m(14ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Load the inbox of the mailinator",
+									"stackTrace": "",
+									"fullMsg": "Load the inbox of the mailinator",
+									"failure": false
+								},
+								{
+									"message": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 560 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#inboxpane table tr td:nth-child(3n)> was visible after 560 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Element <#msg_body> was visible after 33 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <#msg_body> was visible after 33 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "The link in email is correctly \u001b[0;90m(607ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The link in email is correctly \u001b[0;90m(607ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 15,
+							"passed": 15,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 25360
+						}
+					},
+					"timeMs": 25360
+				}
+			},
+			"errmessages": [],
+			"testsCount": 7,
+			"skippedCount": 0,
+			"failedCount": 0,
+			"errorsCount": 0,
+			"passedCount": 34,
+			"group": "",
+			"modulePath": "/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/scenarios/01.UITest.LoginPage.js",
+			"tests": 7,
+			"failures": 0,
+			"errors": 0
+		}
+	}
+}

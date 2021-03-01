@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="10.UITest.Discoverypage"
+    errors="0" failures="1" hostname="" id="" package="10.UITest.Discoverypage" skipped="0"
+    tests="5" time="25.12" timestamp="">
+  
+    <testcase name="Check if top slider shows video name, description, artist image" classname="10.UITest.Discoverypage" time="2.097" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check table/list view mode" classname="10.UITest.Discoverypage" time="6.031" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check if each video has title, description, share/like icon in LIST mode" classname="10.UITest.Discoverypage" time="2.781" assertions="3">
+
+    
+
+      <failure message="Failed [ok]: (Every video has title) - expected &#34;true&#34; but got: &#34;false&#34; (0ms)">    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Check if each video has title, description, share/like icon in GRID mode" classname="10.UITest.Discoverypage" time="3.215" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Check if show more work" classname="10.UITest.Discoverypage" time="11.00" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        Error: Cannot find module &#39;./livePage&#39;
+  Require stack:
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/livePage.mobile.js
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/mobile/11.UITest.LivepageInAuth.js
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/testsuite/context.js
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/testsuite/globals.js
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/runner/cli/cli.js
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/index.js
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/bin/runner.js
+  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/bin/nightwatch
+   Require stack:
+   - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/livePage.mobile.js
+   - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/mobile/11.UITest.LivepageInAuth.js
+       at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+       at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+       at Module.require (internal/modules/cjs/loader.js:1025:19)
+       at require (internal/modules/cjs/helpers.js:72:18)
+       at Object.&lt;anonymous&gt; (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/livePage.mobile.js:4:18)
+       at Module._compile (internal/modules/cjs/loader.js:1137:30)
+       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+       at Module.load (internal/modules/cjs/loader.js:985:32)
+       at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+       at Module.require (internal/modules/cjs/loader.js:1025:19)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

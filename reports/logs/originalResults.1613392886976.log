@@ -1,0 +1,1782 @@
+{
+	"passed": 37,
+	"failed": 2,
+	"errors": 1,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 39,
+	"errmessages": [
+		"\u001b[0;31m  Error: Cannot find module './livePage'\n  Require stack:\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/livePage.mobile.js\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/mobile/11.UITest.LivepageInAuth.js\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/testsuite/context.js\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/testsuite/globals.js\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/runner/cli/cli.js\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/lib/index.js\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/bin/runner.js\n  - /home/tm/Documents/testing/CEEKTV-TEST-develop/node_modules/nightwatch/bin/nightwatch\u001b[0m\n\u001b[0;90m   Require stack:\n   - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/livePage.mobile.js\n   - /home/tm/Documents/testing/CEEKTV-TEST-develop/tests/mobile/11.UITest.LivepageInAuth.js\n       at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)\n       at Function.Module._load (internal/modules/cjs/loader.js:841:27)\n       at Module.require (internal/modules/cjs/loader.js:1025:19)\n       at require (internal/modules/cjs/helpers.js:72:18)\n       at Object.<anonymous> (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/livePage.mobile.js:4:18)\n       at Module._compile (internal/modules/cjs/loader.js:1137:30)\n       at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n       at Module.load (internal/modules/cjs/loader.js:985:32)\n       at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n       at Module.require (internal/modules/cjs/loader.js:1025:19)\u001b[0m"
+	],
+	"modules": {
+		"10.UITest.DiscoverypageInAuth": {
+			"reportPrefix": "CHROME_87.0.4280.66_Linux_",
+			"assertionsCount": 20,
+			"lastError": {
+				"name": "NightwatchAssertError",
+				"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+				"showDiff": false,
+				"abortOnFailure": true,
+				"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+			},
+			"skipped": [],
+			"time": "32.75",
+			"completed": {
+				"Check if top slider shows video name, description, artist image": {
+					"time": "1.786",
+					"assertions": [
+						{
+							"message": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Testing if at least item has been displayed",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+							"failure": false
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 2,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "1.786",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1786
+						}
+					},
+					"timeMs": 1786
+				},
+				"Check table/list view mode": {
+					"time": "5.925",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+							"failure": false
+						},
+						{
+							"message": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+							"failure": false
+						},
+						{
+							"message": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+							"failure": false
+						},
+						{
+							"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 6,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 6,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "1.786",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1786
+						},
+						"Check table/list view mode": {
+							"time": "5.925",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 5925
+						}
+					},
+					"timeMs": 5925
+				},
+				"Check if each video has title, description, share/like icon in LIST mode": {
+					"time": "3.038",
+					"assertions": [
+						{
+							"message": "Channel list is shown",
+							"stackTrace": "",
+							"fullMsg": "Channel list is shown",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has description",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has description",
+							"failure": false
+						},
+						{
+							"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+							"failure": "Expected \"true\" but got: \"false\""
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 1,
+					"skipped": 0,
+					"tests": 3,
+					"steps": [],
+					"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "1.786",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1786
+						},
+						"Check table/list view mode": {
+							"time": "5.925",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 5925
+						},
+						"Check if each video has title, description, share/like icon in LIST mode": {
+							"time": "3.038",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 3,
+							"passed": 2,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 3038
+						}
+					},
+					"lastError": {
+						"name": "NightwatchAssertError",
+						"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+						"showDiff": false,
+						"abortOnFailure": true,
+						"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+					},
+					"timeMs": 3038
+				},
+				"Check if each video has title, description, share/like icon in GRID mode": {
+					"time": "3.086",
+					"assertions": [
+						{
+							"message": "Channel list is shown",
+							"stackTrace": "",
+							"fullMsg": "Channel list is shown",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has title",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has title",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has description",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has description",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has like button",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has like button",
+							"failure": false
+						}
+					],
+					"passed": 4,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 4,
+					"steps": [],
+					"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "1.786",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1786
+						},
+						"Check table/list view mode": {
+							"time": "5.925",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 5925
+						},
+						"Check if each video has title, description, share/like icon in LIST mode": {
+							"time": "3.038",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 3,
+							"passed": 2,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 3038
+						},
+						"Check if each video has title, description, share/like icon in GRID mode": {
+							"time": "3.086",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has title",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has title",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has like button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has like button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 3086
+						}
+					},
+					"timeMs": 3086
+				},
+				"Check if show more work": {
+					"time": "11.04",
+					"assertions": [
+						{
+							"message": "Channel list is shown",
+							"stackTrace": "",
+							"fullMsg": "Channel list is shown",
+							"failure": false
+						},
+						{
+							"message": "The load more button is shown",
+							"stackTrace": "",
+							"fullMsg": "The load more button is shown",
+							"failure": false
+						},
+						{
+							"message": "Element <.preloader.load> was not visible after 532 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.preloader.load> was not visible after 532 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Testing if number of video is greater after click load more button",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Testing if number of video is greater after click load more button",
+							"failure": false
+						}
+					],
+					"passed": 4,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 4,
+					"steps": [],
+					"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "1.786",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1786
+						},
+						"Check table/list view mode": {
+							"time": "5.925",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 5925
+						},
+						"Check if each video has title, description, share/like icon in LIST mode": {
+							"time": "3.038",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 3,
+							"passed": 2,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 3038
+						},
+						"Check if each video has title, description, share/like icon in GRID mode": {
+							"time": "3.086",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has title",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has title",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has like button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has like button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 3086
+						},
+						"Check if show more work": {
+							"time": "11.04",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "The load more button is shown",
+									"stackTrace": "",
+									"fullMsg": "The load more button is shown",
+									"failure": false
+								},
+								{
+									"message": "Element <.preloader.load> was not visible after 532 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.preloader.load> was not visible after 532 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if number of video is greater after click load more button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if number of video is greater after click load more button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 11039
+						}
+					},
+					"timeMs": 11039
+				},
+				"Check like/unlike works in auth mode": {
+					"time": "7.875",
+					"assertions": [
+						{
+							"message": "Passed [ok]: Like/Unline icon work when user logged-in",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Like/Unline icon work when user logged-in",
+							"failure": false
+						}
+					],
+					"passed": 1,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 1,
+					"steps": [],
+					"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "1.786",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 14 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 1786
+						},
+						"Check table/list view mode": {
+							"time": "5.925",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(45ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 5925
+						},
+						"Check if each video has title, description, share/like icon in LIST mode": {
+							"time": "3.038",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 3,
+							"passed": 2,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 3038
+						},
+						"Check if each video has title, description, share/like icon in GRID mode": {
+							"time": "3.086",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has title",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has title",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has like button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has like button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 3086
+						},
+						"Check if show more work": {
+							"time": "11.04",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "The load more button is shown",
+									"stackTrace": "",
+									"fullMsg": "The load more button is shown",
+									"failure": false
+								},
+								{
+									"message": "Element <.preloader.load> was not visible after 532 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.preloader.load> was not visible after 532 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if number of video is greater after click load more button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if number of video is greater after click load more button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 11039
+						},
+						"Check like/unlike works in auth mode": {
+							"time": "7.875",
+							"assertions": [
+								{
+									"message": "Passed [ok]: Like/Unline icon work when user logged-in",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Like/Unline icon work when user logged-in",
+									"failure": false
+								}
+							],
+							"tests": 1,
+							"passed": 1,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 7875
+						}
+					},
+					"timeMs": 7875
+				}
+			},
+			"errmessages": [],
+			"testsCount": 6,
+			"skippedCount": 0,
+			"failedCount": 1,
+			"errorsCount": 0,
+			"passedCount": 19,
+			"group": "",
+			"modulePath": "/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/mobile/10.UITest.DiscoverypageInAuth.js",
+			"tests": 6,
+			"failures": 1,
+			"errors": 0
+		},
+		"10.UITest.Discoverypage": {
+			"reportPrefix": "CHROME_87.0.4280.66_Linux_",
+			"assertionsCount": 19,
+			"lastError": {
+				"name": "NightwatchAssertError",
+				"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+				"showDiff": false,
+				"abortOnFailure": true,
+				"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+			},
+			"skipped": [],
+			"time": "25.12",
+			"completed": {
+				"Check if top slider shows video name, description, artist image": {
+					"time": "2.097",
+					"assertions": [
+						{
+							"message": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Testing if at least item has been displayed",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+							"failure": false
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 2,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "2.097",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2097
+						}
+					},
+					"timeMs": 2097
+				},
+				"Check table/list view mode": {
+					"time": "6.031",
+					"assertions": [
+						{
+							"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+							"failure": false
+						},
+						{
+							"message": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+							"failure": false
+						},
+						{
+							"message": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+							"failure": false
+						},
+						{
+							"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+							"stackTrace": "",
+							"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+							"failure": false
+						}
+					],
+					"passed": 6,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 6,
+					"steps": [],
+					"stackTrace": "",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "2.097",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2097
+						},
+						"Check table/list view mode": {
+							"time": "6.031",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 6031
+						}
+					},
+					"timeMs": 6031
+				},
+				"Check if each video has title, description, share/like icon in LIST mode": {
+					"time": "2.781",
+					"assertions": [
+						{
+							"message": "Channel list is shown",
+							"stackTrace": "",
+							"fullMsg": "Channel list is shown",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has description",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has description",
+							"failure": false
+						},
+						{
+							"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+							"failure": "Expected \"true\" but got: \"false\""
+						}
+					],
+					"passed": 2,
+					"errors": 0,
+					"failed": 1,
+					"skipped": 0,
+					"tests": 3,
+					"steps": [],
+					"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "2.097",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2097
+						},
+						"Check table/list view mode": {
+							"time": "6.031",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 6031
+						},
+						"Check if each video has title, description, share/like icon in LIST mode": {
+							"time": "2.781",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 3,
+							"passed": 2,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 2781
+						}
+					},
+					"lastError": {
+						"name": "NightwatchAssertError",
+						"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+						"showDiff": false,
+						"abortOnFailure": true,
+						"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+					},
+					"timeMs": 2781
+				},
+				"Check if each video has title, description, share/like icon in GRID mode": {
+					"time": "3.215",
+					"assertions": [
+						{
+							"message": "Channel list is shown",
+							"stackTrace": "",
+							"fullMsg": "Channel list is shown",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has title",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has title",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has description",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has description",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Every video has like button",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Every video has like button",
+							"failure": false
+						}
+					],
+					"passed": 4,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 4,
+					"steps": [],
+					"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "2.097",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2097
+						},
+						"Check table/list view mode": {
+							"time": "6.031",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 6031
+						},
+						"Check if each video has title, description, share/like icon in LIST mode": {
+							"time": "2.781",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 3,
+							"passed": 2,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 2781
+						},
+						"Check if each video has title, description, share/like icon in GRID mode": {
+							"time": "3.215",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has title",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has title",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has like button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has like button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 3215
+						}
+					},
+					"timeMs": 3215
+				},
+				"Check if show more work": {
+					"time": "11.00",
+					"assertions": [
+						{
+							"message": "Channel list is shown",
+							"stackTrace": "",
+							"fullMsg": "Channel list is shown",
+							"failure": false
+						},
+						{
+							"message": "The load more button is shown",
+							"stackTrace": "",
+							"fullMsg": "The load more button is shown",
+							"failure": false
+						},
+						{
+							"message": "Element <.preloader.load> was not visible after 529 milliseconds.",
+							"stackTrace": "",
+							"fullMsg": "Element <.preloader.load> was not visible after 529 milliseconds.",
+							"failure": false
+						},
+						{
+							"message": "Passed [ok]: Testing if number of video is greater after click load more button",
+							"stackTrace": "",
+							"fullMsg": "Passed [ok]: Testing if number of video is greater after click load more button",
+							"failure": false
+						}
+					],
+					"passed": 4,
+					"errors": 0,
+					"failed": 0,
+					"skipped": 0,
+					"tests": 4,
+					"steps": [],
+					"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+					"testcases": {
+						"Check if top slider shows video name, description, artist image": {
+							"time": "2.097",
+							"assertions": [
+								{
+									"message": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.autoSlider-container> was visible after 15 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if at least item has been displayed",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if at least item has been displayed",
+									"failure": false
+								}
+							],
+							"tests": 2,
+							"passed": 2,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 2097
+						},
+						"Check table/list view mode": {
+							"time": "6.031",
+							"assertions": [
+								{
+									"message": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"list\" mode should be enable at init",
+									"failure": false
+								},
+								{
+									"message": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The grid mode should be visible at init \u001b[0;90m(13ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should be enable after switch to list",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after switch to list \u001b[0;90m(11ms)\u001b[0m",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: The button switch to \"grid\" mode should still be enable after refresh",
+									"failure": false
+								},
+								{
+									"message": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"stackTrace": "",
+									"fullMsg": "The list mode should be visible after refresh \u001b[0;90m(9ms)\u001b[0m",
+									"failure": false
+								}
+							],
+							"tests": 6,
+							"passed": 6,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "",
+							"timeMs": 6031
+						},
+						"Check if each video has title, description, share/like icon in LIST mode": {
+							"time": "2.781",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+									"fullMsg": "Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+									"failure": "Expected \"true\" but got: \"false\""
+								}
+							],
+							"tests": 3,
+							"passed": 2,
+							"errors": 0,
+							"failed": 1,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"lastError": {
+								"name": "NightwatchAssertError",
+								"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+								"showDiff": false,
+								"abortOnFailure": true,
+								"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+							},
+							"timeMs": 2781
+						},
+						"Check if each video has title, description, share/like icon in GRID mode": {
+							"time": "3.215",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has title",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has title",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has description",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has description",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Every video has like button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Every video has like button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 3215
+						},
+						"Check if show more work": {
+							"time": "11.00",
+							"assertions": [
+								{
+									"message": "Channel list is shown",
+									"stackTrace": "",
+									"fullMsg": "Channel list is shown",
+									"failure": false
+								},
+								{
+									"message": "The load more button is shown",
+									"stackTrace": "",
+									"fullMsg": "The load more button is shown",
+									"failure": false
+								},
+								{
+									"message": "Element <.preloader.load> was not visible after 529 milliseconds.",
+									"stackTrace": "",
+									"fullMsg": "Element <.preloader.load> was not visible after 529 milliseconds.",
+									"failure": false
+								},
+								{
+									"message": "Passed [ok]: Testing if number of video is greater after click load more button",
+									"stackTrace": "",
+									"fullMsg": "Passed [ok]: Testing if number of video is greater after click load more button",
+									"failure": false
+								}
+							],
+							"tests": 4,
+							"passed": 4,
+							"errors": 0,
+							"failed": 0,
+							"skipped": 0,
+							"steps": [],
+							"stackTrace": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+							"timeMs": 10996
+						}
+					},
+					"timeMs": 10996
+				}
+			},
+			"errmessages": [],
+			"testsCount": 5,
+			"skippedCount": 0,
+			"failedCount": 1,
+			"errorsCount": 0,
+			"passedCount": 18,
+			"group": "",
+			"modulePath": "/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/mobile/10.UITest.Discoverypage.js",
+			"tests": 5,
+			"failures": 1,
+			"errors": 0
+		}
+	},
+	"lastError": {
+		"name": "NightwatchAssertError",
+		"message": "Error while running \"ok\" command: Failed [ok]: (Every video has title) - expected \u001b[0;32m\"true\"\u001b[0m but got: \u001b[0;31m\"false\"\u001b[0m \u001b[0;90m(0ms)\u001b[0m",
+		"showDiff": false,
+		"abortOnFailure": true,
+		"stack": "    at Object.Check if each video has title, description, share/like icon in LIST mode (/home/tm/Documents/testing/CEEKTV-TEST-develop/tests/shared/discoveryPage.js:73:20)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+	}
+}

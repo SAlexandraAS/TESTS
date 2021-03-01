@@ -1,0 +1,12 @@
+{
+	"passed": 0,
+	"failed": 0,
+	"errors": 1,
+	"skipped": 0,
+	"tests": 0,
+	"assertions": 0,
+	"errmessages": [
+		"\u001b[0;31m  NightwatchAssertError: Timed out while waiting for element <.singer-gallery_section .singer-gallery-content> to be present for 5000 milliseconds. - expected \u001b[0;32m\"visible\"\u001b[0m but got: \u001b[0;31m\"not found\"\u001b[0m \u001b[0;90m(5157ms)\u001b[0m\u001b[0m\n\u001b[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)\u001b[0m"
+	],
+	"modules": {}
+}
