@@ -1,0 +1,14 @@
+|Nightwatch Results
+|
+each pkg in testRun.packages
+	|	#{(pkg.isFailure) ? pkg.name + ' : [Failed]'  : pkg.name + ' : [Success]' }
+	|
+	each suite, index in pkg.suites
+		|	STEP [#{index + 1}] : #{suite.name} #{!suite.isFailure ? ': [V] No failure assertion': ''}
+		|
+		
+		each testCase in suite.cases
+			if testCase.isFailure
+				|		[FAILED] #{testCase.message}
+				|		#{testCase.stackTrace}
+				|

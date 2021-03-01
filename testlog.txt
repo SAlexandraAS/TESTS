@@ -1,0 +1,14 @@
+
+[0;36m[1 UITest Login Page] Test Suite[0m
+[0;35m================================[0m
+  Using: [1;34mchrome[0m [0;33m(88.0.4324.150)[0m on [0;36mWindows[0m platform.
+
+Running:  [0;32mLogin with the incorrect username[0m
+
+[0;32mтИЪ[0m Element <.signin-form> was visible after 73 milliseconds.
+[0;32mтИЪ[0m Login with the incorrect username and the corrent password should be Fail [0;90m(89ms)[0m
+
+[0;32mOK.[0m [0;32m2[0m assertions passed. (3.183s)
+Running:  [0;32mLogin with the incorrect password[0m
+
+Завершить выполнение пакетного файла [Y(да)/N(нет)]? 
