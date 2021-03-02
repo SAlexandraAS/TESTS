@@ -42,7 +42,7 @@ module.exports = {
         'browserName': 'chrome',
         'chromeOptions': {
           'args': [
-            // 'headless', 
+            'headless', 
             'no-sandbox', 
             "disable-web-security",
             "disable-gpu", 
